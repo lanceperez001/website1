@@ -1,7 +1,10 @@
 
 body {
     height: 100vh;
-    display:flex;
+    display: flex;
+    alight-items: center;
+    justify-contnet: center;
+    margin: 0;
 }
 
 .loading-text {

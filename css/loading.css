@@ -22,7 +22,8 @@ body {
     background-color: purple;
     position: absolute;
     z-index: -1;
-    background-image:url("images/food.jpg")
+    background-image: url("images/food.jpg")
     background-position: center;
     background-size cover;
     background-repeat: no-repeat;
+}

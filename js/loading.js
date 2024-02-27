@@ -1,5 +1,5 @@
-loadText = document.querySelector('.loading-text');
+loadText = document.querySelector('.loading-text')
 
-load = 0
+load = 4
 
-loadText.innerText = `${load}`
+loadText.innerText = `${load}` 

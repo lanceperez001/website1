@@ -4,8 +4,8 @@ body {
     font-family: "Lato", sans-serif;
     height: 100vh;
     display: flex;
-    alight-items: center;
-    justify-contnet: center;
+    align-items: center;
+    justify-content: center;
     margin: 0;
 }
 
@@ -18,7 +18,7 @@ body {
     width: 100vw;
     position: absolute;
     z-index: -1;
-    background-image: url("images/food.jpg")
+    background-image: url("images/food.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

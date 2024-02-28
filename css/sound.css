@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rubik+Bubbles&display=swap');
 
 body {
     background-color: rgb(153, 204, 255);
@@ -17,4 +17,9 @@ body {
     border-radius: 5px;
     border: none;
    color: rgb(0, 0, 0);
+   font-family: "Rubik Bubbles", system-ui;
+}
+
+btn.hover{
+    opacity: 0.9;
 }

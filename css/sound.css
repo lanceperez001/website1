@@ -16,8 +16,9 @@ body {
     margin: 1rem;
     border-radius: 5px;
     border: none;
-   color: rgb(0, 0, 0);
-   font-family: "Rubik Bubbles", system-ui;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Rubik Bubbles", system-ui;
 }
 
 btn.hover{

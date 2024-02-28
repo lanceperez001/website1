@@ -59,7 +59,7 @@ body{
     .panel:nth-of-type(5){
         display: none;
     }
-    .conatiner{
+    .container{
         width: 100vw;
     }
 }

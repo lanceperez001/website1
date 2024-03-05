@@ -30,6 +30,7 @@ body{
     text-align: center;
     position: relative;
     margin-bottom: 20px;
+    z-index: -2;
 }
 
 .hero::before {
@@ -51,4 +52,13 @@ body{
 .hero p {
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+.content h2, .content h3 {
+    font-size: 150%;
+    margin: 20px 0;
+}
+
+.content p{
+    color: #555;
 }

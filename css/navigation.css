@@ -92,7 +92,7 @@ body{
 
 .nav a {
     color: white;
-    text-decorations: none;
+    /* text-decoration: none; */
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
 }
@@ -102,7 +102,8 @@ body{
 }
 
 .nav.active a {
-    color: white;;
+    color: white;
+    box-shadow: 0 2px 10px (0,0,0,0.3);
 }
 
 .nav.active .container {

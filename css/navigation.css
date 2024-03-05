@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -88,3 +89,23 @@ body{
     align-items: center;
     justify-contnent: center;
 }
+
+.nav a {
+    color: white;
+    text-decorations: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .active {
+    background-color: white;
+}
+
+.nav.active a {
+    color: black;
+}
+
+.nav.active .container {
+    padding: 10px 0;
+}
+

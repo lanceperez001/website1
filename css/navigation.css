@@ -60,7 +60,7 @@ body {
 }
 
 .content p {
-    color: #555;
+    color: #666;
     line-height: 30px;
     letter-spacing: 1.2px;
 }
@@ -68,7 +68,7 @@ body {
 
 .nav {
     position: fixed;
-    background-color: #222;
+    background-color: #008;
     top: 0;
     left: 0;
     right: 0;

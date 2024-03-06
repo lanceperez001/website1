@@ -1,27 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-    color: #004;
+body {
+    color: #222;
     padding-bottom: 50px;
     font-family: "Montserrat", sans-serif;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .hero {
-    background-image: url(images/scot.jpg);
+    background-image: url(images/lance.jpg);
     background-repeat: no-repeat;
-    backgorund-size: cover;
+    background-size: cover;
     background-position: bottom center;
     height: 100vh;
     color: white;
@@ -41,7 +40,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     z-index: -1;
 }
 
@@ -60,15 +59,16 @@ body{
     margin: 20px 0;
 }
 
-.content p{
-    color: #888;
+.content p {
+    color: #555;
     line-height: 30px;
     letter-spacing: 1.2px;
 }
 
-.nav{
+
+.nav {
     position: fixed;
-    background-color: #123;
+    background-color: #222;
     top: 0;
     left: 0;
     right: 0;
@@ -78,32 +78,32 @@ body{
 .nav .container {
     display: flex;
     justify-content: space-between;
-    alight-items: center;
+    align-items: center;
     padding: 20px 0;
     transition: all 0.3s ease-in-out;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     list-style-type: none;
     align-items: center;
-    justify-contnent: center;
+    justify-content: center;
 }
 
 .nav a {
     color: white;
-    /* text-decoration: none; */
+    text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
 }
 
-.nav .active {
-    background-color: black;
+.nav.active {
+    background-color: white;
+    box-shadow: 0 2px 10px rbga(0,0,0,0.3);
 }
 
 .nav.active a {
     color: black;
-    box-shadow: 0 2px 10px (0,0,0,0.3);
 }
 
 .nav.active .container {
@@ -111,8 +111,9 @@ body{
 }
 
 .nav a.current,
-.nav a:hover{
-    color: rgb(192, 0, 43);
+.nav a:hover {
+    color: orange;
     font-weight: bold;
 }
+
 

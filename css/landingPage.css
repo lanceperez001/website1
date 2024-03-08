@@ -99,7 +99,7 @@ input [type='submit'] {
 
 .cta-btn {
     padding: 12px 30px;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .container {
@@ -116,5 +116,18 @@ modal-container {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.6)
+    background-color: rgba(0,0,0,0.6);
+    /* display: none; */
+}
+
+.modal {
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3)
 }

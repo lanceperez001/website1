@@ -13,10 +13,11 @@
 body {
     font-family: "Lato", sans-serif;
     margin: 0;
+    transition: transform 0.3s ease;
 }
 
 body.show-nav {
-    transform: translateX(200px);
+    transform: translateX(200x);
 }
 
 nav {
@@ -27,10 +28,11 @@ nav {
     width: 200px;
     height: 100%;
     border-right: 2px solid rgba(200,200,200,0.1);
-    z-index: 100;
+    z-index:100;
     color: white;
     transform: translateX(-100%);
 }
+
 
 nav .logo {
     padding: 30px 0;
@@ -52,7 +54,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -60,11 +62,11 @@ nav ul{
 
 nav ul li {
     padding: 20px;
-    border-bottom:  2px solid rgba(200,200,200,0.1);
+    border-bottom: 2px solid rgba(200,200,200,0.1);
 }
 
 nav ul li:nth-of-type(1) {
-    border-top:  2px solid rgba(200,200,200,0.1);
+    border-top: 2px solid rgba(200,200,200,0.1);
 }
 
 header {
@@ -85,7 +87,7 @@ header p {
 }
 
 button,
-input [type='submit'] {
+input[type='submit'] {
     background-color: var(--secondary-color);
     border: 0;
     border-radius: 5px;
@@ -114,13 +116,18 @@ input [type='submit'] {
 }
 
 
-modal-container {
+.modal-container {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+
+.modal-container.show-modal {
+    display: block;
 }
 
 .modal {
@@ -133,6 +140,17 @@ modal-container {
     max-width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .modal-header {
@@ -146,7 +164,7 @@ modal-header h3 {
     border-bottom: 1px solid #333;
 }
 
-.modal-conent {
+.modal-content {
     padding: 20px;
 }
 
@@ -154,12 +172,12 @@ modal-header h3 {
     margin: 15px 0;
 }
 
--mdoal-form label {
+.modal-form label {
     display: block;
     margin-bottom: 5px;
 }
 
-.modal-from .form-input {
+.modal-form .form-input {
     padding: 8px;
     width: 100%;
 }

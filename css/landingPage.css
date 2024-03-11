@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+body.show-nav {
+    transform: translateX(200px);
+}
+
 nav {
     background-color: var(--primary-color);
     position: fixed;
@@ -165,5 +169,5 @@ modal-header h3 {
     top: 0;
     right: 0;
     background: transparent;
-    fo
+    font-size: 25px;
 }

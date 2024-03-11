@@ -135,5 +135,36 @@ modal-container {
 .modal-header {
     background-color: var(--primary-color);
     color: white;
-    
+    padding: 15px;
+}
+
+modal-header h3 {
+    margin: 0;
+    border-bottom: 1px solid #333;
+}
+
+.modal-conent {
+    padding: 20px;
+}
+
+.modal-form div {
+    margin: 15px 0;
+}
+
+-mdoal-form labe; {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modal-from .form-input {
+    padding: 8px;
+    width: 100%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    fo
 }

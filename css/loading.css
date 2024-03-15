@@ -9,6 +9,11 @@ body {
     margin: 0;
 }
 
+.HomePage{
+    bottom: 0;
+
+}
+
 .loading-text {
     font-size: 50px;
     color: white;
